@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+body
+{
+    background-color: rgb(255, 255, 255); 
+    color: gray; 
+}
+
+
+header
+{
+    background-color: rgb(5, 72, 83); 
+    color:  rgb(255, 255, 255); 
+    text-align: center; 
+    padding: 15px; 
+}
+
+nav{
+
+    background-color: blue;
+
+
+}
+
+.image-container {
+    position: relative; /* Estabelece um contexto de posicionamento para os elementos filhos */
+    display: inline-block; /* Ou block, para que o contêiner se ajuste ao tamanho da imagem */
+  }
+  
+  .image-container img {
+    display: block; /* Remove espaço extra sob a imagem */
+    max-width: 100%; /* Garante que a imagem seja responsiva */
+    height: auto;
+  }
+  
